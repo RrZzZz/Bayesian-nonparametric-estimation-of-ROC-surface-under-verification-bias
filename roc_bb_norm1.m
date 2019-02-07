@@ -21,7 +21,7 @@ y=normrnd(3, 4, ny, 1);
 z=normrnd(5, 5, nz, 1);
 
 grid=0.0005
-rep=100000
+rep=1000
 
 t= [grid:grid:1-grid] % FPF vector
 ot=ones(length(t),1); % vector of 1 with the same length as vector t
